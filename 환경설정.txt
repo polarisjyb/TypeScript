@@ -1,0 +1,19 @@
+1. npm init -y
+패키지 초기화
+
+2. npm install typescript
+일반 의존모듈로 설치
+
+3. npm install --save-dev ts-node
+node.js 런타임 환경에서 사용하는 typescript가 별도 존재하므로 개발용 의존모듈로 설치
+
+4. npx tsc --init
+tsc 실행 명령으로 --init을 통해 tsconfig.json 정의 파일을 생성
+
+5. 생성된 tsconfig.json 파일에는 간단한 기본 설정과 지원하는 다양한 속성들이 주석으로 처리되어있다.
+필요한 만큼 설정해주는 방식이다. (아무런 설정을 하지 않아도 일단은 구동된다.)
+
+6. 설정이 제대로 되었는지 확인하기 위해
+간단한 test.ts 파일 생성 후 타입스크립트 방식으로 작성해본다.
+
+7. ts파일이 만들고, 간단한 예제가 만들어졌다면, 명령줄에 npx tsc 명령을 통해 어떤작용을 하는지 확인한다.
